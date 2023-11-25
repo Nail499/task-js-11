@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    background-color: rgb(66, 66, 66);
+    color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0;
+    gap: 90px;
+    margin: auto;
+}
+.text1{
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.emojies{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    margin: auto;
+
+}
+.emojies div img{
+    width: 100%;
+}
+.unhappy{
+    width: 20%;
+}
+.neutral{
+    width: 20%;
+}
+.neutral button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 30px;
+}
+.satisfied button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 30px;
+}
+.unhappy button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 30px;
+}
+.satisfied{
+    width: 20%;
+}
+.button{
+    width: 14%;
+    padding: 13px 10px;
+    font-size: 22px;
+}
+.unhappyup{
+    width: 7%;
+    display: none;
+    
+    
+}
+.neutralup{
+    width: 5%;
+    display: none;
+}
+.satisfiedup{
+    width: 5%;
+    display: none;
+}
